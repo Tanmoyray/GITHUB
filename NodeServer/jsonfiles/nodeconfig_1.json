@@ -3,10 +3,10 @@
  [ 
    { 
      "browserName": "Android",
-          "version":"4.4",
+          "version”:”4.3”,
           "maxInstances": 3,
           "platform":"ANDROID",
-		  "deviceName":"192.168.157.101:5555"
+		  "deviceName":"192.168.2.106:5555"
 		  }], 
 	
     "configuration":

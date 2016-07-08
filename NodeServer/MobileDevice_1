@@ -1,0 +1,1 @@
+appium -a 127.0.0.1 -p 4723  --bootstrap-port 4730 -U 192.168.2.106:5555 --nodeconfig  /Users/tanmoyray/git/AndroidNativeGitHub/NodeServer/nodeconfig_1.json

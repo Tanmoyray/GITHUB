@@ -3,3 +3,4 @@
 *.settings/
 /test-output/
 /bin/
+/target/

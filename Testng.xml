@@ -5,11 +5,11 @@
 
 	<tests>
 
-		<test name="run on device 1">
+		<test name="run on MobileDevice_1">
 
 			<classes>
 				<parameter name="port" value="4723" />
-				<parameter name="device" value="192.168.157.101:5555"></parameter>
+				<parameter name="device" value="192.168.2.106:5555"></parameter>
 
 				<class name="testpkg.ParallelTest">
 					<methods>
@@ -21,12 +21,12 @@
 			</classes>
 		</test>
 
-		<test name="run on device 2">
+		<test name="run on emulator5.1_2">
 
 			<classes>
 				<parameter name="port" value="4725"></parameter>
-				<parameter name="device" value="192.168.157.102:5555"></parameter>
-				<parameter name="bp" value="4728"></parameter>
+				<parameter name="device" value="10.0.0.2:5555"></parameter>
+				
 				<class name="testpkg.ParallelTest">
 					<methods>
 						<include name="InvalidValidLoginTest" />

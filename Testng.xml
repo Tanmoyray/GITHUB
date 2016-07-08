@@ -14,8 +14,7 @@
 				<class name="testpkg.ParallelTest">
 					<methods>
 
-						<include name="ValidLoginTest" />
-						<exclude name="InvalidValidLoginTest" />
+						<execute name="ValidLoginTest" />
 					</methods>
 				</class>
 			</classes>
@@ -29,8 +28,7 @@
 				
 				<class name="testpkg.ParallelTest">
 					<methods>
-						<include name="InvalidValidLoginTest" />
-						<exclude name="ValidLoginTest" />
+						<include name="ValidLoginTest" />
 					</methods>
 				</class>
 			</classes>

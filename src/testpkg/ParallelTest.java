@@ -34,7 +34,7 @@ public class ParallelTest {
 		
 		cap = new DesiredCapabilities();
 		
-		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
 		
 		//cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "4.3");
 							

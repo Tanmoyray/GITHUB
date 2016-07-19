@@ -59,7 +59,7 @@ public class ParallelTest {
 		driver.findElementById("com.senrysa.parkingplace:id/LoginPassword").sendKeys("123");
 		
 		driver.tap(1, driver.findElementById("com.senrysa.parkingplace:id/btn_Login"), 1);
-		Thread.sleep(9000L);
+		Thread.sleep(12000L);
 		
 		System.out.println("Test Login");
 		
